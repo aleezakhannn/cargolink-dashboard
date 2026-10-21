@@ -1,0 +1,119 @@
+{
+  "metrics": {
+    "totalGaps": 12,
+    "highPriority": 5,
+    "mediumPriority": 5,
+    "lowPriority": 2,
+    "remediationProgress": 25
+  },
+  "gaps": [
+    {
+      "id": 1,
+      "control": "A.8.24 Use of cryptography",
+      "action": "Turn on encryption in transit (HTTPS/TLS) and at rest for fleet tracking data",
+      "owner": "IT Admin",
+      "priority": "High",
+      "startDate": "2026-10-19",
+      "dueDate": "2026-11-06"
+    },
+    {
+      "id": 2,
+      "control": "A.5.24 Incident management planning",
+      "action": "Write a one-page incident response plan with contacts and first steps",
+      "owner": "IT Admin",
+      "priority": "High",
+      "startDate": "2026-10-19",
+      "dueDate": "2026-10-30"
+    },
+    {
+      "id": 3,
+      "control": "A.5.30 ICT readiness for continuity",
+      "action": "Document a recovery plan for the fleet tracking server and test one restore",
+      "owner": "IT Admin",
+      "priority": "High",
+      "startDate": "2026-11-02",
+      "dueDate": "2026-11-20"
+    },
+    {
+      "id": 4,
+      "control": "A.8.8 Technical vulnerabilities",
+      "action": "Set a monthly patching schedule for all servers",
+      "owner": "IT Admin",
+      "priority": "High",
+      "startDate": "2026-10-26",
+      "dueDate": "2026-11-13"
+    },
+    {
+      "id": 5,
+      "control": "A.8.15 Logging",
+      "action": "Turn on activity logging for the cargo manifest database and review it weekly",
+      "owner": "IT Admin",
+      "priority": "High",
+      "startDate": "2026-10-26",
+      "dueDate": "2026-11-13"
+    },
+    {
+      "id": 6,
+      "control": "A.5.15 Access control",
+      "action": "Write access rules for the manifest database and limit it to named roles",
+      "owner": "IT Admin",
+      "priority": "Medium",
+      "startDate": "2026-11-02",
+      "dueDate": "2026-11-13"
+    },
+    {
+      "id": 7,
+      "control": "A.7.10 Storage media",
+      "action": "Encrypt the backup drive and keep it in a locked cabinet",
+      "owner": "IT Admin",
+      "priority": "Medium",
+      "startDate": "2026-10-19",
+      "dueDate": "2026-10-23"
+    },
+    {
+      "id": 8,
+      "control": "A.8.13 Information backup",
+      "action": "Schedule weekly backups and test a restore every month",
+      "owner": "IT Admin",
+      "priority": "Medium",
+      "startDate": "2026-10-26",
+      "dueDate": "2026-11-06"
+    },
+    {
+      "id": 9,
+      "control": "A.8.5 Secure authentication",
+      "action": "Enable multi-factor authentication on dispatch terminal logins",
+      "owner": "IT Admin",
+      "priority": "Medium",
+      "startDate": "2026-11-09",
+      "dueDate": "2026-11-27"
+    },
+    {
+      "id": 10,
+      "control": "A.6.3 Awareness and training",
+      "action": "Run a 30-minute security awareness session for dispatch and warehouse staff",
+      "owner": "Dispatch Manager",
+      "priority": "Medium",
+      "startDate": "2026-11-16",
+      "dueDate": "2026-11-27"
+    },
+    {
+      "id": 11,
+      "control": "A.8.2 Privileged access rights",
+      "action": "Give each admin their own account and remove shared logins",
+      "owner": "IT Admin",
+      "priority": "Low",
+      "startDate": "2026-11-02",
+      "dueDate": "2026-11-13"
+    },
+    {
+      "id": 12,
+      "control": "A.8.20 Networks security",
+      "action": "Split guest and office Wi-Fi and segment the network on the router",
+      "owner": "IT Admin",
+      "priority": "Low",
+      "startDate": "2026-11-16",
+      "dueDate": "2026-12-04"
+    }
+  ]
+}
