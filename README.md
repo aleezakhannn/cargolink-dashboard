@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# CargoLink Remediation Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A small React project that displays CargoLink's compliance gap status, remediation progress, and key metrics. It uses sample lab data only. Nothing here touches real systems.
 
-## Available Scripts
+## What's Inside
 
-In the project directory, you can run:
+* `src/App.js` - main React component managing metric counts, progress, and the remediation table
+* `src/App.css` - custom styling for the dashboard layout, cards, and priority tags
+* `src/gapsData.json` - sample data containing 12 remediation gaps, controls, actions, owners, priorities, start dates, and due dates
+* `package.json` - project configuration, dependencies, and deployment scripts
 
-### `npm start`
+## How to Run
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install the dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+Start the development server:
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
 
-### `npm run build`
+## Assumptions
+ * Owners and dates are proposals for this lab exercise, not real commitments.
+ * Priority levels reflect initial triage for CargoLink's security controls based on lab requirements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Results
+ * 12 remediation gaps tracked with priority breakdowns, start dates, and due dates.
+ * Fully responsive web interface accessible via a public URL.
+ * Live demo hosted on GitHub Pages: https://aleezakhannn.github.io/cargolink-dashboard/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Limitations
+ * Data is loaded from a static local JSON file rather than a live backend database.
+ * Designed as a standalone lab dashboard rather than an enterprise compliance platform.
