@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/aleezakhannn/cargolink-dashboard/static/css/main.c87ef92c.css",
-    "main.js": "/aleezakhannn/cargolink-dashboard/static/js/main.5628bd0c.js",
-    "index.html": "/aleezakhannn/cargolink-dashboard/index.html",
-    "main.c87ef92c.css.map": "/aleezakhannn/cargolink-dashboard/static/css/main.c87ef92c.css.map",
-    "main.5628bd0c.js.map": "/aleezakhannn/cargolink-dashboard/static/js/main.5628bd0c.js.map"
+    "main.css": "/cargolink-dashboard/static/css/main.c87ef92c.css",
+    "main.js": "/cargolink-dashboard/static/js/main.5628bd0c.js",
+    "index.html": "/cargolink-dashboard/index.html",
+    "main.c87ef92c.css.map": "/cargolink-dashboard/static/css/main.c87ef92c.css.map",
+    "main.5628bd0c.js.map": "/cargolink-dashboard/static/js/main.5628bd0c.js.map"
   },
   "entrypoints": [
     "static/css/main.c87ef92c.css",
